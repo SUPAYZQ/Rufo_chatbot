@@ -1,0 +1,9 @@
+venv/
+__pycache__/
+*.pyc
+.env
+rufo_b64.txt
+rufo_nobg_b64.txt
+rufo.png
+rufo_nobg.png
+*.log
