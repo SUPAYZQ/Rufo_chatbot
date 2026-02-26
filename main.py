@@ -18,7 +18,7 @@ app.add_middleware(
 
 # En producción la key viene de variable de entorno (Render.com)
 client = anthropic.Anthropic(
-    api_key=os.environ.get("ANTHROPIC_API_KEY")
+    api_key=os.environ.get("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")
 )
 
 class Message(BaseModel):
