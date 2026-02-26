@@ -1,4 +1,4 @@
-# 🦉 RUFO - Asistente OEFA para Power BI
+# 🦉 RUFO - Asistente para Power BI
 
 Chatbot institucional de OEFA integrado en tableros de Power BI, powered by Claude AI.
 
