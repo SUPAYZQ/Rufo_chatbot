@@ -510,8 +510,7 @@ function addMsg(role,txt,tok,err,imgData){
     mc.appendChild(im);
   }
   var b=document.createElement("div");b.className="bub"+(err?" err":"");
-  b.innerHTML=txt.replace(/
-/g,"<br>").replace(/\*\*(.*?)\*\*/g,"<strong>$1</strong>");
+  b.textContent=txt; b.innerHTML=b.innerHTML.replace(/\n/g,"<br>");
   var t=document.createElement("div");t.className="mt";t.textContent=ts();
   mc.appendChild(b);mc.appendChild(t);
   if(tok){var tb=document.createElement("div");tb.className="tb";tb.textContent=tok+" tokens";mc.appendChild(tb);}
