@@ -37,7 +37,7 @@ html, body {
 /* ── FLOATING BUTTON ── */
 #rufoBtn {
   position: fixed;
-  bottom: 96px; right: 20px;
+  bottom: 20px; left: 20px;
   width: var(--btn-size); height: var(--btn-size);
   border-radius: 50%;
   cursor: pointer;
@@ -108,7 +108,7 @@ html, body {
 /* ── PANEL ── */
 #panel {
   position: fixed;
-  bottom: 96px; right: 20px;
+  bottom: 96px; left: 20px;
   width: var(--panel-w);
   height: var(--panel-h);
   background: var(--surface);
@@ -118,7 +118,7 @@ html, body {
   overflow: hidden;
   z-index: 9998;
   transform: scale(0.85) translateY(20px);
-  transform-origin: bottom right;
+  transform-origin: bottom left;
   opacity: 0;
   pointer-events: none;
   transition: transform 0.35s cubic-bezier(0.32,0.72,0,1), opacity 0.3s ease;
